@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*All the data main container written here*/
+.container{
+    height: 100vh;
+    background-color:#161d5c;
+}
+
+/*All the data regarding 1st line written here*/
+.l1{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size:large;
+}
+
+.l1 a{
+    color: black;
+    margin: 5px;
+}
+
+/*All the data regarding 2nd line written here*/
+.l2{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ac a{
+    color:yellowgreen;
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+}
+
+#ab{
+    color: blue;
+}
+
+#ab:hover{
+    color:yellowgreen;
+}
+
+.btn1{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*All the data regarding 3rd line written here*/
+.l3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.l3 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.l3 span{
+    color: yellowgreen;
+}
+
+.l3 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.l3 img{
+    max-width: 100%;
+}
+
+
+/*All the data regarding 4th line written here*/
+.l4{
+    background-color: #161d5c;
+}
+
+.l4 h2 i{
+    color: yellow;
+    font-size: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.yt{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.ld{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.aa{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.ip{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.c-img {
+    padding: 20px;
+    
+}
+
+.l4 h2{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.l4 span{
+    color: yellowgreen;
+}
+
+/*All the data regarding 5th line written here*/
+.l5{
+    background-color: #161d5c;
+}
+.ca1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.ca1 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ca1 p{
+    font-size: 20px;
+}
+
+.ca1 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ca2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.ca2 h3{
+    font-size: 30px;
+}
+
+.ca2 p{
+    font-size: 20px;
+}
+
+.ca2 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ca3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.ca3 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ca3 p{
+    font-size: 20px;
+}
+
+.ca3 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*All the data regarding 5-a line written here*/
+.fo{
+    width: 60%;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.bt{
+    background-color:blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 15%;
+}
+
+/*All the data regarding 6th line written here*/
+.l6{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #161d5c;
+}
+
+.l6 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.l6 h3{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.l6 span{
+    color: yellowgreen;
+}
+
+.l6 p{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.l6 a{
+    text-decoration: none;
+    width: 25%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: yellowgreen;
+}
+
+
+
+
+/*All the data regarding 7th line written here*/
+.l7 h3{
+    color: gray;
+}
+.l7 a{
+    display: flex;
+    flex-direction: column;
+    color: yellowgreen;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.l7 i{
+    color: yellowgreen;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/*All the data regarding 8th line written here*/
+.l8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.l8 p{
+    font-size: large;
+    font-weight: bold;
+}
